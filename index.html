@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oranienbaum&family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="banner" id="banner">
+
+        <header class="header fixed" id="header">
+            <div class="container">
+                <div class="row header__wrapper">
+                    <div class="header__col-left col-6">
+                        <ul class="header__nav">
+                            <li class="header__nav-link">Блок<a href="#"></a></li>
+                            <li class="header__nav-link"><a href="#">Бесплатно</a></li>
+                            <li class="header__nav-link"><a href="#"></a></li>
+                            <li class="header__nav-link"><a href="#">Семинары</a></li>
+                            <li class="header__nav-link"><a href="#">Тренинги</a></li>
+                            <li class="header__nav-link"><a href="#">Услуги</a></li>
+                            <li class="header__nav-link"><a href="#">Отзывы</a></li>
+                            <li class="header__nav-link"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__col-right col-6">
+
+                        <div class="header__social">
+                            <a href="" class="header__social-link"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 50 50" width="24px" height="24px">
+                                    <path
+                                        d="M 12 3 C 7.0414839 3 3 7.0414839 3 12 L 3 38 C 3 42.958516 7.0414839 47 12 47 L 38 47 C 42.958516 47 47 42.958516 47 38 L 47 12 C 47 7.0414839 42.958516 3 38 3 L 12 3 z M 12 5 L 38 5 C 41.877484 5 45 8.1225161 45 12 L 45 38 C 45 41.877484 41.877484 45 38 45 L 12 45 C 8.1225161 45 5 41.877484 5 38 L 5 12 C 5 8.1225161 8.1225161 5 12 5 z M 38 7 C 36.904545 7 36 7.9045455 36 9 L 36 12 C 36 13.095455 36.904545 14 38 14 L 41 14 C 42.095455 14 43 13.095455 43 12 L 43 9 C 43 7.9045455 42.095455 7 41 7 L 38 7 z M 38 9 L 41 9 L 41 12 L 38 12 L 38 9 z M 25 12 C 21.331661 12 18.01623 13.540914 15.648438 16 L 8 16 A 1.0001 1.0001 0 0 0 7 17 L 7 37 C 7 40.301625 9.6983746 43 13 43 L 37 43 C 40.301625 43 43 40.301625 43 37 L 43 17 A 1.0001 1.0001 0 0 0 42 16 L 34.351562 16 C 31.98377 13.540914 28.668339 12 25 12 z M 25 14 C 31.073477 14 36 18.926523 36 25 C 36 31.073477 31.073477 36 25 36 C 18.926523 36 14 31.073477 14 25 C 14 18.926523 18.926523 14 25 14 z M 25 16 A 1.0001 1.0001 0 0 0 24.589844 16.083984 C 19.831681 16.311415 16 20.186041 16 25 C 16 29.959394 20.041635 34 25 34 C 29.958365 34 34 29.959394 34 25 C 34 20.187371 30.170385 16.313404 25.414062 16.083984 A 1.0001 1.0001 0 0 0 25 16 z M 9 18 L 14.068359 18 C 12.766308 20.024088 12 22.423973 12 25 C 12 32.158523 17.841477 38 25 38 C 32.158523 38 38 32.158523 38 25 C 38 22.423973 37.233692 20.024088 35.931641 18 L 41 18 L 41 37 C 41 39.220375 39.220375 41 37 41 L 13 41 C 10.779625 41 9 39.220375 9 37 L 9 18 z M 25 18 C 28.877635 18 32 21.121394 32 25 C 32 28.878606 28.877635 32 25 32 C 21.122365 32 18 28.878606 18 25 C 18 21.121394 21.122365 18 25 18 z" />
+                                </svg></a>
+                            <a href="" class="header__social-link"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32" width="24px" height="24px">
+                                    <path
+                                        d="M 7 5 C 5.90625 5 5 5.90625 5 7 L 5 25 C 5 26.09375 5.90625 27 7 27 L 25 27 C 26.09375 27 27 26.09375 27 25 L 27 7 C 27 5.90625 26.09375 5 25 5 Z M 7 7 L 25 7 L 25 25 L 19.8125 25 L 19.8125 18.25 L 22.40625 18.25 L 22.78125 15.25 L 19.8125 15.25 L 19.8125 13.3125 C 19.8125 12.4375 20.027344 11.84375 21.28125 11.84375 L 22.90625 11.84375 L 22.90625 9.125 C 22.628906 9.089844 21.667969 9.03125 20.5625 9.03125 C 18.257813 9.03125 16.6875 10.417969 16.6875 13 L 16.6875 15.25 L 14.0625 15.25 L 14.0625 18.25 L 16.6875 18.25 L 16.6875 25 L 7 25 Z" />
+                                </svg></a>
+                            <a href="" class="header__social-link"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 48 48" width="24px" height="24px">
+                                    <path
+                                        d="M 5.4355469 10.957031 C 3.1940971 10.957031 1.4873184 13.161086 2.1054688 15.328125 C 3.7149365 20.976871 6.1008234 26.508318 9.6621094 30.857422 C 13.223395 35.206526 18.039918 38.358951 24.199219 38.984375 C 26.249401 39.19239 28.017578 37.521139 28.017578 35.494141 L 28.017578 31.447266 C 28.017578 31.194748 28.190043 31.015308 28.386719 31.009766 C 28.423139 31.008896 28.452253 31.007813 28.470703 31.007812 C 29.178043 31.007812 30.631501 31.893981 31.908203 33.271484 C 33.184905 34.648988 34.314098 36.354273 34.857422 37.298828 L 34.857422 37.300781 C 35.472179 38.36767 36.617685 39.011719 37.835938 39.011719 L 42.708984 39.011719 C 45.135955 39.013519 46.759978 36.271923 45.572266 34.148438 C 43.707529 30.813171 39.987356 27.514403 38.126953 25.869141 C 41.535533 22.126008 43.795468 18.046772 44.796875 15.341797 C 45.552594 13.298086 43.994375 10.998047 41.796875 10.998047 L 38.318359 10.998047 C 36.806296 10.998047 35.396532 11.734785 34.820312 12.914062 C 32.113082 18.46169 29.699958 20.499254 28 21.966797 L 28 14.439453 C 28 12.561528 26.441788 11.013274 24.570312 11.009766 L 18.478516 11 C 16.538627 10.9976 15.335757 13.393494 16.498047 14.947266 L 17.673828 16.521484 L 17.675781 16.525391 C 17.877299 16.791881 17.984375 17.111197 17.984375 17.439453 L 17.984375 17.441406 L 18.007812 23.71875 C 15.584865 21.163426 12.952504 15.750557 12.158203 13.335938 L 12.158203 13.333984 C 11.694311 11.923494 10.359752 10.971123 8.8867188 10.966797 L 8.8847656 10.966797 L 5.4375 10.957031 L 5.4355469 10.957031 z M 5.4355469 13.957031 L 8.8789062 13.966797 C 9.0905592 13.967299 9.246215 14.081502 9.3085938 14.271484 C 10.294883 17.27072 12.886252 22.985249 16.171875 26.185547 C 17.025083 27.016776 18.277358 27.185277 19.248047 26.791016 C 20.218736 26.396755 21.009766 25.37501 21.009766 24.175781 L 21.009766 24.173828 L 20.984375 17.439453 C 20.984375 16.45867 20.663301 15.504844 20.074219 14.722656 L 20.072266 14.71875 L 19.535156 14.001953 L 24.564453 14.009766 C 24.827025 14.010278 25 14.181378 25 14.439453 L 25 22.042969 C 25 24.477717 28.066371 25.876634 29.910156 24.285156 L 29.912109 24.285156 C 31.602179 22.825279 34.592869 20.21974 37.515625 14.230469 C 37.583405 14.091748 37.524425 13.998047 38.318359 13.998047 L 41.796875 13.998047 C 41.999375 13.998047 42.058703 14.094497 41.982422 14.300781 C 41.131592 16.59902 38.960826 20.606819 35.742188 24.074219 C 34.750126 25.143099 34.79055 26.909155 35.912109 27.902344 C 37.670254 29.457435 41.507421 33.025544 42.953125 35.611328 C 43.085413 35.847842 42.985964 36.011922 42.710938 36.011719 L 37.835938 36.011719 C 37.668189 36.011719 37.530274 35.929849 37.457031 35.802734 C 36.807355 34.673289 35.615923 32.857918 34.109375 31.232422 C 32.602827 29.606926 30.809363 28.007812 28.470703 28.007812 C 28.404443 28.007812 28.350188 28.008705 28.308594 28.009766 L 28.304688 28.009766 L 28.302734 28.009766 C 26.44141 28.062226 25.017578 29.641784 25.017578 31.447266 L 25.017578 35.494141 C 25.017578 35.805142 24.777771 36.027985 24.501953 36 C 19.178253 35.459424 15.165636 32.844427 11.982422 28.957031 C 8.7992078 25.069635 6.5257666 19.895114 4.9902344 14.505859 C 4.9043844 14.204898 5.0889964 13.957031 5.4355469 13.957031 z" />
+                                </svg></a>
+                        </div>
+                        <div class="header__phone">
+                            <a class="header__phone-link" href="tel:88007070513">8 (800)707-05-13
+                            </a>
+                            <a class="header__phone-link" href="tel:74993502335">+7(499)350-23-35
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="header__burger burger__btn-active" id="header__burger">
+                        <a href="" class="header__burger-link"></a>
+                    </div>
+                    <div class="burger__nav" id="burger__nav">
+                        <ul class="burger__nav-list">
+                            <li class="burger__nav-link">Блок</li>
+                            <li class="burger__nav-link">Бесплатно</li>
+                            <li class="burger__nav-link">Семинары</li>
+                            <li class="burger__nav-link">Тренинги</li>
+                            <li class="burger__nav-link">Услуги</li>
+                            <li class="burger__nav-link">Отзывы</li>
+                            <li class="burger__nav-link">Контакты</li>
+                        </ul>
+                        <div class="burger__phone">
+                            <a class="header__phone-link" href="tel:88007070513">8 (800)707-05-13
+                            </a>
+                            <a class="header__phone-link" href="tel:74993502335">+7(499)350-23-35
+                            </a>
+                            <a class="burger__close" id="burger__close" href="#">&#10006</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row banner__wrapper">
+                <div class="col-sm-4 col-7 banner__wrapper-col">
+                    <a class="banner__logo">
+                        <img src="./img/logo-new.png" alt="">
+                    </a>
+                    <div class="banner__title">
+                        <h1>Наша миссия:</h1>
+                        <span> &#171миллион красиво одетых женщин&#187</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- info -->
+    <section class="info" id="info">
+        <div class="container">
+            <div class="info__wrapper">
+                <div class="info__img">
+                    <img src="./img/form-reservation-bigcolor.jpg" alt="">
+                </div>
+                <div class="row info__top">
+                    <div class="col-lg-10 col-md-8 col-sm-10 col-10 info__top-wrapper">
+                        <h2 class="info__top-title">как все происходит</h2>
+                        <div class="info__top-spans">
+                            <div class="span">
+                                <span>После оплаты мы подключим вас в канал Telegram с нашим стилистом</span>
+                            </div>
+                            <div class="span">
+
+                                <span>Подключение происходит в рабочее время: ПН-ПТ с 10 до 19 МСК </span>
+                            </div>
+                            <div class="span">
+                                <span>сразу же вы можете писать свои вопросы </span>
+                            </div>
+                            <div class="span">
+                                <span>Ответы будут в пределах часа в рабочее время: ПН-ПТ с 10 до 19 МСК</span>
+                            </div>
+
+                            <div class="span">
+                                <span>Если вы не получаете ответа за 1 час,мы продлеваемвремя действия усуги на 24
+                                    час.</span>
+                            </div>
+                            <div class="span">
+                                <span>А если нужна помощь в выходной день?</span>
+                            </div>
+
+                        </div>
+                        <div class="
+                        info__top-text">
+                            <div class="col-lg-8 text__wrapper">
+                                <h3>Напишите об этом как можно раньше,но не менее че за 24 часа. Получите подтверждение
+                                    стилиста. Если вы отправляетесь,к примеру,на шопинг в выходной день и вам
+                                    нужно,чтобы
+                                    стилист ыл с вами на связи,такой вариант возможен по предварительной договоренности
+                                    со
+                                    стилистом.</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row info__table">
+                    <div class="col-lg-10 col-md-11 col-sm-12  info__table-col">
+                        <div class="table__span-1">
+                            <div class="span__1-left">вы получаете</div>
+                            <div class="span__1-right">
+                                <div class="span__1-item">теория</div>
+                                <div class="span__1-item">практика</div>
+                                <div class="span__1-item">vip</div>
+                            </div>
+                        </div>
+                        <div class="table__span-2">
+                            <div class="span__2-left">все материалы тренинга</div>
+                            <div class="span__2-right">
+                                <div class="span__2-item"><img src="./img/icons8-галочка.svg" alt=""></div>
+                                <div class="span__2-item"><img src="./img/icons8-галочка.svg" alt=""></div>
+                                <div class="span__2-item"><img src="./img/icons8-галочка.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="table__span-3">
+                            <div class="span__3-left">поверка ДЗ</div>
+                            <div class="span__3-right">
+                                <div class="span__3-item item__img"><img src="./img/minus-line-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="span__3-item item__text">2,5 месяца <br /> <span>имидмейкером <br /> команды
+                                        <br />
+                                        Гламурненько.ру</span></div>
+                                <div class="span__3-item item__text">2,5 месяца <br /> <span>* лично Екатириной <br />
+                                        Маляровой</span> </div>
+                            </div>
+                        </div>
+                        <div class="table__span-4">
+                            <div class="span__4-left">Тренажер стилевым типажам</div>
+                            <div class="span__4-right">
+                                <div class="span__4-item item__img"><img src="./img/minus-line-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="span__4-item item__img"><img src="./img/icons8-галочка.svg" alt=""></div>
+                                <div class="span__4-item item__img"><img src="./img/icons8-галочка.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="table__span-5">
+                            <div class="span__5-left">Тренажер по вещам и образам</div>
+                            <div class="span__5-right">
+                                <div class="span__5-item item__img"><img src="./img/minus-line-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="span__5-item item__img"><img src="./img/icons8-галочка.svg" alt=""></div>
+                                <div class="span__5-item item__img"><img src="./img/icons8-галочка.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="table__span-6">
+                            <div class="span__6-left">Цена</div>
+                            <div class="span__6-right">
+                                <div class="span__6-item item__price"> 7990 ₽</div>
+                                <div class="span__6-item item__price"> 7990 ₽</div>
+                                <div class="span__6-item item__price"> 7990 ₽</div>
+                            </div>
+                        </div>
+                        <div class="table__span-7">
+                            <div class="span__7-left"></div>
+                            <div class="span__7-right">
+
+                            </div>
+                        </div>
+                        <div class="table__span-8">
+                            <div class="span__8-left"></div>
+                            <div class="span__8-right">
+                                <div class="span__8-item"><button>заказать</button></div>
+                                <div class="span__8-item"><button>заказать</button></div>
+                                <div class="span__8-item"><button>заказать</button></div>
+                            </div>
+                        </div>
+
+              
+                    </div>
+                </div>
+
+
+                <div class="info__img-2">
+                    <img src="./img/2razmera_books_preview_1200_c.png" alt="">
+                </div>
+
+
+                <div class="row info__service">
+                    <div class="col-lg-11 col-md-11    info__service__wrapper">
+                        <div class="info__service-title">пакеты услуг</div>
+                        <div class="info__service-cards">
+
+                            <div class="service-card">
+                                <h3 class="service-card-toptitle">пакет</h3>
+                                <h2 class="service-card-title">&#171Попробовать&#187</h2>
+                                <div class="service-card-time">срок: <br /> <span>в пределах 24 часов</span> </div>
+                                <div class="service-card-question">Вопросов/комплектов на оценку: <br /> <span>5 ваших
+                                        луков или 5 вопросов</span> </div>
+                                <div class="service-card-price">499</div>
+                                <div class="service-card-btn">заказать</div>
+                            </div>
+
+                            <div class="service-card">
+                                <h3 class="service-card-toptitle">пакет</h3>
+                                <h2 class="service-card-title">&#171Попробовать&#187</h2>
+                                <div class="service-card-time">срок: <br /> <span>в пределах 24 часов</span> </div>
+                                <div class="service-card-question">Вопросов/комплектов на оценку: <br /> <span>5 ваших
+                                        луков или 5 вопросов</span> </div>
+                                <div class="service-card-price">499</div>
+                                <div class="service-card-btn">заказать</div>
+                            </div>
+
+                            <div class="service-card">
+                                <h3 class="service-card-toptitle">пакет</h3>
+                                <h2 class="service-card-title">&#171Попробовать&#187</h2>
+                                <div class="service-card-time">срок: <br /> <span>в пределах 24 часов</span> </div>
+                                <div class="service-card-question">Вопросов/комплектов на оценку: <br /> <span>5 ваших
+                                        луков или 5 вопросов</span> </div>
+                                <div class="service-card-price">499</div>
+                                <div class="service-card-btn">заказать</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row info__process">
+                    <div class="col-lg-10 info__process__wrapper">
+                        <div class="info__process-title">
+                            как все происходит
+                        </div>
+                        <div class="info__process-cards">
+                            <div class="info__process-card">
+                                <a data-src="./img/first-class-stylish-help-chat-1.jpg" data-fancybox="gallery"
+                                    data-caption="Optional caption" class="process-card-img"><img
+                                        src="./img/first-class-stylish-help-chat-1.jpg" alt=""></a>
+                                <div class="process-card-text">Клиентка просит стилиста помочь выбрать одну из курток
+                                </div>
+                            </div>
+                            <div class="info__process-card">
+                                <a data-src="./img/first-class-stylish-help-chat-2.jpg" data-fancybox="gallery"
+                                    data-caption="Optional caption" class="process-card-img"><img
+                                        src="./img/first-class-stylish-help-chat-2.jpg" alt=""></a>
+                                <div class="process-card-text">Клиентка просит стилиста помочь выбрать одну из курток
+                                </div>
+                            </div>
+                            <div class="info__process-card">
+                                <a data-src="./img/first-class-stylish-help-chat-3.jpg" data-fancybox="gallery"
+                                    data-caption="Optional caption" class="process-card-img"><img
+                                        src="./img/first-class-stylish-help-chat-3.jpg" alt=""></a>
+                                <div class="process-card-text">Клиентка просит стилиста помочь выбрать одну из курток
+                                </div>
+                            </div>
+                            <div class="info__process-card">
+                                <div class="process-card-img"><img src="./img/first-class-stylish-help-chat-4.jpg"
+                                        alt=""></div>
+                                <div class="process-card-text">Клиентка просит стилиста помочь выбрать одну из курток
+                                </div>
+                            </div>
+                            <div class="info__process-card">
+                                <a data-src="./img/first-class-stylish-help-chat-4.jpg" data-fancybox="gallery"
+                                    data-caption="Optional caption" class="process-card-img"><img
+                                        src="./img/first-class-stylish-help-chat-4.jpg" alt=""></a>
+                                <div class="process-card-text">Клиентка просит стилиста помочь выбрать одну из курток
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__wrapper">
+                <div class="footer__btn"><button>наверх</button>
+                </div>
+                <ul class="footer__nav">
+                    <li class="footer__nav-link"><a href="#">Вакансии</a></li>
+                    <li class="footer__nav-link"><a href="#">Карта сайта</a></li>
+                    <li class="footer__nav-link"><a href="#">Политика приватности</a></li>
+                    <li class="footer__nav-link">Перепечатка разрешена только с активной ссылкой на нас</li>
+                    <li class="footer__nav-link"><a href="#"></a></li>
+                    <li class="footer__nav-link"><a href="#"></a>Email: support@glamurnenko.ru</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jq.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+
+</html>
